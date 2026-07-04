@@ -11,7 +11,7 @@ body:
         Before submitting, please make sure:
         - You are using the latest version of the modpack.
         - The issue has not already been reported.
-        - This is not caused by unsupported modifications.
+        - No unsupported modifications are installed.
 
   - type: input
     id: modpack-version
