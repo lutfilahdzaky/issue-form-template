@@ -1,5 +1,5 @@
 name: Content Suggestion
-description: Suggest new content to be added, removed, or replaced in the modpack.
+description: Suggest content to add, remove, or replace in the modpack.
 title: "[Content]: "
 labels:
   - content
