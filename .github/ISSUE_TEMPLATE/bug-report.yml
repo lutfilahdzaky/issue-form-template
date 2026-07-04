@@ -79,14 +79,14 @@ body:
     attributes:
       label: System Information
       description: Please provide your system information.
-      placeholder: |
-        Operating System: Windows 11 24H2
-        Launcher: Prism Launcher 9.4
-        CPU: AMD Ryzen 7 7800X3D
-        GPU: NVIDIA GeForce RTX 4070
-        RAM: 32 GB
-        Allocated Memory: 12 GB
-        Java Version: OpenJDK 21
+      value: |
+        Operating System: [e.g. Windows 11, macOS Sequoia 15, Linux Ubuntu 22.04]
+        Launcher: [e.g. Prism Launcher, Modrinth App, CurseForge App, MultiMC]
+        CPU: [e.g. AMD Ryzen 7 7800X3D, Intel Core i5-13600K]
+        GPU: [e.g. NVIDIA GeForce RTX 4070, AMD Radeon RX 7800 XT, Intel Arc A770]
+        Installed RAM: [e.g. 32 GB]
+        Allocated Memory: [e.g. 8 GB]
+        Java Runtime: [e.g. Eclipse Temurin 21.0.7, Oracle JDK 21, Microsoft OpenJDK 21]
     validations:
       required: true
 
