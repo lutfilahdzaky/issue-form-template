@@ -18,7 +18,7 @@ body:
     attributes:
       label: Modpack Version
       description: Which version of the modpack are you using?
-      placeholder: e.g. v1.2.0
+      placeholder: e.g. 1.2.0
     validations:
       required: true
 
@@ -69,7 +69,6 @@ body:
       label: Logs or Crash Report
       description: |
         Paste your latest.log, crash report, or upload them using a service like mclo.gs.
-      render: shell
 
   - type: input
     id: screenshots
