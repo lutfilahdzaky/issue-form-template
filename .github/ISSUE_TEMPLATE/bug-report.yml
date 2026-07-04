@@ -68,9 +68,9 @@ body:
     attributes:
       label: Logs or Crash Report
       description: |
-        Please provide the log or crash report captured during the same session in which the bug or crash occurred.
-        Upload your latest.log or crash report to mclo.gs and paste the link here, or paste the contents directly.
-      render: shell
+        Please provide the log or crash report captured during the same game session in which the bug or crash occurred.
+
+        Upload your latest.log or crash report to a paste service such as mclo.gs, then paste the link here.
     validations:
       required: true
 
