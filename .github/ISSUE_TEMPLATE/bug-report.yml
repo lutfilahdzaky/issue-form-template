@@ -85,6 +85,7 @@ body:
         CPU: AMD Ryzen 7 7800X3D
         GPU: NVIDIA GeForce RTX 4070
         RAM: 32 GB
+        Allocated Memory: 12 GB
         Java Version: OpenJDK 21
     validations:
       required: true
