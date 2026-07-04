@@ -1,0 +1,61 @@
+name: Mod Suggestion
+description: Suggest adding, removing, or replacing a mod in the modpack.
+title: "[Mod]: "
+labels:
+  - mod
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting, please make sure:
+        - The mod is compatible with Minecraft 1.21.1 and NeoForge.
+        - The suggestion has not already been made.
+
+  - type: input
+    id: mod-name
+    attributes:
+      label: Mod Name
+      description: What mod are you suggesting?
+      placeholder: e.g. Sophisticated Backpacks
+    validations:
+      required: true
+
+  - type: input
+    id: mod-link
+    attributes:
+      label: Mod Link
+      description: Provide a link to the mod page (Modrinth, CurseForge, GitHub, etc.).
+      placeholder: https://...
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: Suggestion Type
+      options:
+        - Add a mod
+        - Remove a mod
+        - Replace a mod
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why do you think this change would improve the modpack?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched for existing mod suggestions before creating this request.
+          required: true
