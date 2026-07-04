@@ -10,7 +10,7 @@ body:
       value: |
         Before submitting, please make sure:
         - Your suggestion has not already been requested.
-        - This request is for a feature or improvement, not a new mod.
+        - This request is for a feature or improvement, not a content suggestion.
 
   - type: textarea
     id: feature
