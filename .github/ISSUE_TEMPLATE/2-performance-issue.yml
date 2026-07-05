@@ -68,6 +68,22 @@ body:
       required: true
 
   - type: textarea
+    id: system-information
+    attributes:
+      label: System Information
+      description: Please provide your system information.
+      value: |
+        Operating System: [e.g. Windows 11, macOS Sequoia 15, Linux Ubuntu 22.04]
+        Launcher: [e.g. Prism Launcher, Modrinth App, CurseForge App, MultiMC]
+        CPU: [e.g. AMD Ryzen 7 7800X3D, Intel Core i5-13600K]
+        GPU: [e.g. NVIDIA GeForce RTX 4070, AMD Radeon RX 7800 XT, Intel Arc A770]
+        Installed RAM: [e.g. 32 GB]
+        Allocated Memory: [e.g. 8 GB]
+        Java Runtime: [e.g. Eclipse Temurin 21.0.7, Oracle JDK 21, Microsoft OpenJDK 21]
+    validations:
+      required: true
+
+  - type: textarea
     id: additional
     attributes:
       label: Additional Information
